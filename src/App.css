@@ -1,0 +1,609 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+.heading{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body{
+  background-color: black;
+}
+
+.name{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.projectheader{
+  font-family: "Exo", serif;
+  font-optical-sizing: auto;
+  color:rgb(177, 145, 145) ;
+
+  font-style: normal;
+}
+a{
+  font-family: "Exo", serif;
+  font-optical-sizing: auto;
+  color:rgb(177, 145, 145) ;
+
+  font-style: normal;
+}
+.conthead{
+  font-family: "Exo", serif;
+  font-optical-sizing: auto;
+  color:rgb(177, 145, 145) ;
+
+  font-style: normal;
+}
+.aboutheading{
+  font-family: "Exo", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.aboutmepar{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.show{
+  position: relative;
+  top:10px;
+  left:35px;
+}
+
+.effect{
+ 
+  width:17ch;
+  border-right: solid white 4px;
+  animation:type 3s steps(17),blink 1s step-end infinite;
+  overflow: hidden;
+}
+@keyframes type{
+  from{
+
+    width:0ch;
+  }
+}
+@keyframes blink{
+  50%{
+    border-color:transparent;
+  }
+ 
+}
+a{
+color:rgb(177, 145, 145);
+}
+.leftnav{
+  text-decoration:none;
+  
+}
+
+.fo{
+ margin: 5px;
+}
+.first{
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
+}
+#project{
+  
+  bottom: 30px;
+}
+
+.qrdesc{
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+.food{
+  position: relative;
+  width: 160px;
+  height: 270px;
+  
+  background-color:rgb(177, 145, 145) ;;
+  color:black;
+  border-radius: 5px;
+
+}
+.con{
+  color:rgb(177, 145, 145) ;
+}
+.qrproject{
+position: relative;
+  width: 160px;
+  height: 270px;
+  
+  background-color:  rgb(177, 145, 145) ;;
+  color: black;
+  border-radius: 5px;
+}
+.fooddesc{
+  position:relative;
+  left: 4px;
+  top:10px;
+}
+.qrdesc{
+  position: relative;
+  left:5px;
+  top:5px;
+}
+.name{
+  margin-top:40px;
+  margin-left:15px;
+}
+.logos{
+
+  display: flex;
+  
+  margin-left: 25px;
+  color:black;
+
+}
+.about{
+  display: flex;
+  
+}
+.aboutme{
+  height: 300px;
+  width: 300px;
+  margin-left: 17px;
+  margin-right: 10px;
+  margin-top: 10px;
+  
+}
+#About{
+  background-color: rgb(9, 9, 65);
+  color: aliceblue;
+}
+.Aboutimg{
+  width: 300px;
+  height: 300px;
+}
+.fo{
+  width: 150px;
+  height: 130px;
+}
+.qr{
+  width:150px;
+  height:130px;
+  margin: 5px;
+  
+}
+.download{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(9, 9, 65); 
+  position: relative;
+  bottom: 20px;
+}
+.resume{
+  background-color: blueviolet;
+  color: black;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.resume:hover{
+  border:solid 1px white;
+  
+}
+.download{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:rgb(177, 145, 145) ;
+  
+}
+.contacts{
+  width:100%;
+  height:400px;
+  background-color: black;
+  position: relative;
+  bottom: 40px;
+  color:rgb(177, 145, 145) ;
+
+}
+.heading{
+  position: relative;
+  left:8px;
+}
+
+
+ @media(min-width:600px) and (max-width:1800px){
+  .name{
+    font-size:30px;
+  }
+  .projectheader{
+    color: rgb(177, 145, 145);
+    font-size: 30px;
+    position: relative;
+    top:55px;
+    left: 30px;;
+  }
+  .contacts{
+  width:100%;
+  height:400px;
+  background-color: black;
+  position: relative;
+  bottom: 40px;
+  color:rgb(177, 145, 145) ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #444;
+  border-top: 2px solid #444;
+}
+
+  .aboutme{
+    font-size: 20px;
+  }
+  .logo{
+    
+    font-size: 35px;
+  }
+  .logo:hover{
+    color: aliceblue;
+  }
+  .logos{
+    display: flex;
+    gap:20px
+  }
+.header{ 
+  background-color: black;
+  color:rgb(177, 145, 145);
+  height:fit-content;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow:0 5px 15px rgba(255, 255, 255, 0.2);   
+  z-index: 10; 
+  border-bottom: 2px solid #444;
+
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  gap:30%;
+  margin-bottom:13%;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color:rgb(177, 145, 145);
+  border-top: 2px solid #444;
+  border-bottom: 2px solid #444;
+}
+.aboutme{
+  flex:1;
+  margin-top: 100px;
+}
+.Aboutimg{
+  flex: 1;
+  height: 500px;
+  width: 500px;
+}
+.contactimg{
+  position: relative;
+  left:250px;
+  bottom: 18px;
+
+}
+.home{
+  display: flex;
+  justify-content: space-between;
+
+  background-color: black;
+  color:rgb(177, 145, 145);
+  border-top: 2px solid #444;
+}
+.ahome{
+  padding:6%;
+  width: 20%;
+  height: 5%;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.logo{
+
+  color: rgb(177, 145, 145);
+  text-decoration: none;
+}
+
+.navc{
+  display: flex;
+  gap:10px;
+  margin-right:10px;
+  position: relative;
+  top:10px;
+
+
+  
+}
+.first{
+  flex: 1;
+  width: 400px;
+  height: 400px;
+}
+.navcs{
+  display:none;
+}
+
+
+
+#project{
+  background-color:  black;
+  color:rgb(177, 145, 145);
+  position: relative;
+  bottom:25px;
+  
+  width:100%;
+  height:400px;
+
+}
+li{
+  list-style:none;
+  color:rgb(177, 145, 145);
+}
+.fa-solid{
+  font-size:20px;
+  color:white;
+  padding:5px ;
+  text-align: end;
+  display: none;
+
+  position: sticky;
+}
+.buttoncss{
+  display:none;
+}
+.resume{
+  position: relative;
+  left: 250px;
+  background-color:rgb(177, 145, 145); 
+  color: black;
+}
+}
+@media(max-width:500px){
+  .contactimg{
+    display:none;
+  
+  }
+  
+.header{
+  background-color:black;
+  color:rgb(177, 145, 145);
+  height:50px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #444;
+
+  
+  
+}
+h1{
+  display: inline;
+}
+.navc{
+  margin-right: 50px;
+  margin-top: 60px;
+  display:none;
+
+}
+.navcs{
+    margin-right: 50px;
+    margin-top: 60px;
+    position:relative;
+    width:100px;
+    left:50px;
+
+  
+    
+}
+.snav{
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  width:100px;
+  height: 20px;
+  z-index: 1;
+  gap: 10px;
+  
+  
+}
+li{
+  
+  background-color:rgb(177, 145, 145);
+  color: black;
+  border:solid black 2px;
+  text-align: center;
+  border-radius:5px ;
+  z-index:10px;
+}
+.li:hover{
+  background-color: aliceblue;
+}
+li{
+  list-style:none;
+  color:black;
+}
+.fa-solid{
+  font-size:20px;
+  color: black;
+  padding:5px ;
+  text-align: end;
+  display: inline-block;
+
+  position: sticky;
+}
+.buttoncss{
+  border-style:none;
+  background-color: rgb(9, 9, 65);
+  color:white;
+}
+.home{
+  display: block;
+  position: relative;
+  bottom: 2px;
+
+  background-color: black;
+  color:rgb(177, 145, 145);
+  border-bottom: 2px solid #444;
+  border-top:2px solid #444;
+}
+.name{
+  margin-left:30px;
+  margin-top: 3px;
+  position: relative;
+  top:10px;
+}
+.first{
+  margin-top:10px;
+}
+.logos{
+  
+  display: flex;
+  margin-top: 5px;
+  margin-left: 25px;
+
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color:rgb(177, 145, 145);
+  border-bottom: 2px solid #444;
+  border-top:2px solid #444;
+  position: relative;
+  bottom:2px;
+}
+#about{
+  border-bottom: 2px solid #444;
+}
+.fa-solid{
+  color:rgb(177, 145, 145);
+}
+#project{
+  width:100%;
+  height:650px;
+  background-color:black;
+  color:rgb(177, 145, 145);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px solid #444;
+  border-top: 2px solid #444;
+ 
+}
+  
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  align-items: center;
+  
+}
+.projectheader{
+  margin-left: 20px;
+}
+.download{
+  width: 100%;
+  height: 100px;
+  background-color:black;
+  color:rgb(177, 145, 145);
+  
+}
+.resume{
+  
+  background-color:rgb(177, 145, 145);
+  color: black;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.resume:hover{
+  border:solid 1px white;
+  
+}
+.download{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo{
+  color:rgb(177, 145, 145);
+  font-size:18px;
+}
+.logos{
+  display: flex;
+  gap:10px;
+  position: relative;
+  top:5px;
+
+}
+.logo:hover{
+  color: aliceblue;
+}
+.contacts{
+  width:100%;
+  height:200pxpx;
+  background-color: black;
+  position: relative;
+  border-bottom: 2px solid #444;
+  bottom: 40px;
+  color:rgb(177, 145, 145);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #444;
+  gap: 70px;
+
+}
+.heading{
+  position: relative;
+  bottom: 15px;
+  right:5px;
+  }
+.projectheader{
+  color:rgb(177, 145, 145);
+  position: relative;
+  bottom:22px;
+  right: 5px;
+}
+.projects{
+  position: relative;
+  bottom:45px;
+}
+.qrproject{
+  position: relative;
+    width: 160px;
+    height: 250px;
+    
+    background-color:rgb(177, 145, 145);;
+    color: black;
+    border-radius: 5px;}
+
+}
